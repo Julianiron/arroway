@@ -3,6 +3,8 @@
 <head>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 	<title>ARROWAY</title>
 		<style>
     body {
@@ -16,15 +18,6 @@
       margin: 0px;
 	  text-align: center;
     }
-
-	@media (max-width: 768px) {
-	  .title {
-      text-align: center;
-      }
-	  .subtitle {
-	  text-align: center;
-      }
-	} 
 
     .container {
 	  text-align: center;
@@ -55,53 +48,23 @@
 	  justify-content: center;
       margin-bottom: 20px;
     }
+	
+	.social-icons {
+      margin-bottom: 20px;
+    }
 
-    .fa {
+    .social-icons a {
       padding: 10px;
       font-size: 50px;
-      width: 50px;
-      display: inline-flex;
-      text-align: center;
+      color: white;
       text-decoration: none;
-      margin: 0px 0px;
-      justify-content: center;
-	  margin-bottom: 20px;
+      margin: 0 10px;
     }
 
-    .fa-youtube:hover {
-      color: #f2c54a;
-    }
-
-    .fa-youtube {
-      background: #0f0f0e;
-      color: white;
-    }
-	
-     .fa-instagram:hover {
+    .fa-youtube:hover,
+    .fa-bandcamp:hover,
+    .fa-bluesky:hover {
        color: #f2c54a;
-    }
-
-    .fa-instagram {
-      background: #0f0f0e;
-      color: white;
-    }
-	
-     .fa-bandcamp:hover {
-       color: #f2c54a;
-    }
-
-    .fa-bandcamp{
-      background: #0f0f0e;
-      color: white;
-    }
-	
-    .fa-whatsapp:hover {
-       color: #f2c54a;
-    }
-
-    .fa-whatsapp{
-      background: #0f0f0e;
-      color: white;
     }
 
     .videos {
@@ -160,11 +123,11 @@
   <h2 class="subtitle">Experimental Rock Music / Postrock / Shoegaze</h2>
 </div>
 
-<div class="fa">
-    <a href="https://www.instagram.com/arrowaymusic"><i class="fa fa-instagram"></i></a>
-    <a href="https://arroway.bandcamp.com"><i class="fa fa-bandcamp"></i></a>
-    <a href="https://www.youtube.com/channel/arrowaymusic"><i class="fa fa-youtube"></i></a>
-	<a href="https://whatsapp.com/channel/0029VaoEPxkLY6cy7PGa1d0A"><i class="fa fa-whatsapp"></i></a>
+<!-- Social Media Icons -->
+<div class="social-icons">
+    <a href="https://bsky.app/profile/arrowaymusic.bsky.social"><i class="fa-solid fa-cloud"></i></a>
+    <a href="https://arroway.bandcamp.com"><i class="fa-brands fa-bandcamp"></i></a>
+    <a href="https://www.youtube.com/channel/arrowaymusic"><i class="fa-brands fa-youtube"></i></a>
 </div>
 
 <div id="mc_embed_shell">
